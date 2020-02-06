@@ -244,7 +244,7 @@ END_OF_SCRIPT
 	echo "Setting up ${HOOK_SCRIPT} hook in git template directory"
 	setup_git_template_talisman_hook
 	echo
-	echo "Setting up talisman hook recursively in git repos"
+	echo "Setting up talisman hook recursively in git repos..."
 	SEARCH_ROOT = ${HOME}
 	echo ${SEARCH_ROOT_ENV}
 	if [[ -z "${SEARCH_ROOT_ENV}" ]]; then
